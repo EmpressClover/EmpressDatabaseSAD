@@ -104,7 +104,7 @@ flex-wrap: wrap;
 
   .apps img {
     border: 1px solid #131313;
-    margin-top: -15vh;
+    margin-top: -165px;
 
     position: relative;
     
@@ -203,6 +203,7 @@ p {
   position: fixed;
   top: -2vh;
   left: -5px;
+  z-index: -2;
 }
 
 
