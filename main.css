@@ -69,7 +69,7 @@ text-transform: uppercase;
 
 
 .apps {
-height: auto;
+top:40px;
 flex-grow: 0;
 flex-shrink: 1;
 flex-basis: auto;
