@@ -63,7 +63,7 @@ body {
   .infopanel {
     border: 1px solid #cccccc;
     width: 400px;
-    height: 100px;
+    height: 120px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -128,14 +128,78 @@ a:active {color: #cccccc}
 
 }
 
-.characters img {
+
+
+
+.caption-style-1{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.caption-style-1 li{
+    float: left;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.caption-style-1 li:hover .caption{
+    opacity: 1;
+
+}
+
+
+.caption-style-1 img{
     margin-left:10px;
     margin-top:5px;
     cursor: pointer;
     width: 75px;
     height: 75px;
+    float: left;
+    z-index: 4;
 }
 
+
+.caption-style-1 .caption{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+
+    transition:all 0.25s ease-in-out;
+}
+
+.caption-style-1 .blur{
+    background-color: rgba(0,0,0,0.65);
+    height: 75px;
+    width: 75px;
+    z-index: 5;
+    position: absolute;
+    margin-left:10px;
+    margin-top:5px;
+}
+
+
+.caption-style-1 .caption-text p{
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: 'OS Reg', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1vh;
+    text-align: center;
+    margin-left:10px;
+    margin-top:5px;
+    top:2vh;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1em; /* a */
+    max-height: 2em; /* a x number of line to show (ex : 2 line)  */
+    height: 75px;
+    width: 75px;
+}
 
 button {
     background-color: #111111; /* Green */

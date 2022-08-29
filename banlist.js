@@ -6,9 +6,4 @@ function takescreenshot() {
     
     }
 
-
-    document.addEventListener('click', function(e) {
-        if (e.target.tagName === 'IMG') {
-          e.target.remove();
-        }
-      });
+    $("li").click(function() { $(this).closest("li").remove(); }); 
