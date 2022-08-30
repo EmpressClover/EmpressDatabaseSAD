@@ -63,7 +63,7 @@ body {
   .infopanel {
     border: 1px solid #cccccc;
     width: 400px;
-    height: 120px;
+    height: 200px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -123,7 +123,7 @@ a:active {color: #cccccc}
 
 
 
-.characters {
+.characters, .characters2 {
     height:100%;
 
 }
@@ -131,27 +131,26 @@ a:active {color: #cccccc}
 
 
 
-.caption-style-1{
+.caption-style-1,.caption-style-2{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     
 }
 
-.caption-style-1 li{
+.caption-style-1 li, .caption-style-2 li{
     float: left;
     padding: 0px;
     position: relative;
     overflow: hidden;
 }
 
-.caption-style-1 li:hover .caption{
+.caption-style-1 li:hover .caption, .caption-style-2 li:hover .caption{
     opacity: 1;
 
 }
 
-
-.caption-style-1 img{
+.caption-style-1 img, .caption-style-2 img{
     margin-left:10px;
     margin-top:5px;
     cursor: pointer;
@@ -162,7 +161,7 @@ a:active {color: #cccccc}
 }
 
 
-.caption-style-1 .caption{
+.caption-style-1 .caption, .caption-style-2 .caption{
     cursor: pointer;
     position: absolute;
     opacity: 0;
@@ -170,7 +169,7 @@ a:active {color: #cccccc}
     transition:all 0.25s ease-in-out;
 }
 
-.caption-style-1 .blur{
+.caption-style-1 .blur,.caption-style-2 .blur{
     background-color: rgba(0,0,0,0.65);
     height: 75px;
     width: 75px;
@@ -181,7 +180,7 @@ a:active {color: #cccccc}
 }
 
 
-.caption-style-1 .caption-text p{
+.caption-style-1 .caption-text p, .caption-style-2 .caption-text p{
     z-index: 10;
     color: rgb(255, 255, 255);
     position: absolute;
@@ -201,7 +200,7 @@ a:active {color: #cccccc}
     width: 75px;
 }
 
-button {
+button{
     background-color: #111111; /* Green */
     border: none;
     color: white;
@@ -209,7 +208,7 @@ button {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    border: 1px solid rgb(255, 20, 90);
+    border: 1px solid rgba(255, 20, 90, 0);
 }
 
 .center {
@@ -218,7 +217,7 @@ button {
     justify-content: center;
 }
 
-button {
+button, #openbutton {
     margin-left:15px;
     margin-right:15px;
     position: relative;
@@ -226,8 +225,7 @@ button {
 }
 
 button:hover {
-    background-color: #2e2e2e; /* Green */
-
+    background-color: #2e2e2e; 
 }
 
 
@@ -240,7 +238,26 @@ button:hover {
     height: auto;
     position: relative;
     width: 85vw;
-    border: 1px solid rgb(255, 20, 90);
+    border: 1px solid rgba(255, 20, 90, 0);
     margin: auto;
     top: 3vh;;
+}
+
+#root3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color:#111111;
+    height: auto;
+    position: relative;
+    width: 85vw;
+    border: 1px solid rgba(255, 20, 90, 0);
+    margin: auto;
+    top: 7vh;;
+}
+
+
+.root2 {
+    border: 1px solid #ffffff00;
 }
