@@ -1,3 +1,7 @@
+
+
+
+
 function takescreenshot() {
         
     html2canvas(document.querySelector("#root")).then(canvas => {
@@ -28,7 +32,6 @@ function takescreenshot() {
 
 
 $(".root2").css('borderColor', get_random_color());
-
 
 
 $(document).ready(function() {
@@ -75,3 +78,19 @@ $(document).ready(function() {
 
   
   });
+
+
+
+  function includeJs(jsFilePath) {
+    var js = document.createElement("script");
+
+    js.type = "text/javascript";
+    js.src = jsFilePath;
+
+    document.body.appendChild(js);
+}
+
+includeJs("load.js");
+
+
+$("#fileInput").val('');
