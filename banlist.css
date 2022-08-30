@@ -63,7 +63,7 @@ body {
   .infopanel {
     border: 1px solid #cccccc;
     width: 400px;
-    height: 230px;
+    height: 250px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;

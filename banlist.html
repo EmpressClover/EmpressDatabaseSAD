@@ -2,6 +2,7 @@
     <head>
         <title> Ban Creator By Clover#1315</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://bundles.interactjs.io/2e92cc0e.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
          <script>
 
@@ -26,9 +27,9 @@
 
                     <P class="info">Discord: Clover#1315<br>
 <a href="https://discord.gg/S2gQbV9y">Clan Discord</a> <br> 
-                        Last Updated: August 30th, 2022 (6:30 AM)
+                        Last Updated: August 30th, 2022 (9:00 AM)
                         <p class="info2 infocolor">You can now add and remove characters at the bottom of the page.</p><p class="info3 ">
-                         (Position of the characters will not save).<br></p> <p class="info4 infocolor">
+                         (Position of the characters will not save but you can drag and drop them back inbetween the pictures).<br></p> <p class="info4 infocolor">
                          You can now save your character list as a preset and load them later for editing.
                     </P>
 
@@ -43,7 +44,7 @@
 
 
 
-                     <li><img src="characters/1.png">
+                     <li class="dropzone" id='0' draggable="true"><img src="characters/1.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -53,7 +54,7 @@
                     </li>
 
 
-                     <li><img src="characters/2.png">
+                     <li class="dropzone" id='1' draggable="true"><img src="characters/2.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -63,7 +64,7 @@
                     </li>
 
 
-                     <li><img src="characters/3.png">
+                     <li class="dropzone" id='2' draggable="true"><img src="characters/3.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -73,7 +74,7 @@
                     </li>
 
 
-                     <li><img src="characters/4.png">
+                     <li class="dropzone" id='3' draggable="true"><img src="characters/4.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -83,7 +84,7 @@
                     </li>
 
 
-                     <li><img src="characters/5.png">
+                     <li class="dropzone" id='4' draggable="true"><img src="characters/5.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -93,7 +94,7 @@
                     </li>
 
 
-                     <li><img src="characters/6.png">
+                     <li class="dropzone" id='5' draggable="true"><img src="characters/6.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -103,7 +104,7 @@
                     </li>
 
 
-                     <li><img src="characters/7.png">
+                     <li class="dropzone" id='6' draggable="true"><img src="characters/7.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -113,7 +114,7 @@
                     </li>
 
 
-                     <li><img src="characters/8.png">
+                     <li class="dropzone" id='7' draggable="true"><img src="characters/8.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -123,7 +124,7 @@
                     </li>
 
 
-                     <li><img src="characters/9.png">
+                     <li class="dropzone" id='8' draggable="true"><img src="characters/9.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -133,7 +134,7 @@
                     </li>
 
 
-                     <li><img src="characters/10.png">
+                     <li class="dropzone" id='9' draggable="true"><img src="characters/10.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -143,7 +144,7 @@
                     </li>
 
 
-                     <li><img src="characters/11.png">
+                     <li class="dropzone" id='10' draggable="true"><img src="characters/11.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -153,7 +154,7 @@
                     </li>
 
 
-                     <li><img src="characters/12.png">
+                     <li class="dropzone" id='11' draggable="true"><img src="characters/12.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -163,7 +164,7 @@
                     </li>
 
 
-                     <li><img src="characters/13.png">
+                     <li class="dropzone" id='12' draggable="true"><img src="characters/13.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -173,7 +174,7 @@
                     </li>
 
 
-                     <li><img src="characters/14.png">
+                     <li class="dropzone" id='13' draggable="true"><img src="characters/14.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -183,7 +184,7 @@
                     </li>
 
 
-                     <li><img src="characters/15.png">
+                     <li class="dropzone" id='14' draggable="true"><img src="characters/15.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -193,7 +194,7 @@
                     </li>
 
 
-                     <li><img src="characters/16.png">
+                     <li class="dropzone" id='15' draggable="true"><img src="characters/16.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -203,7 +204,7 @@
                     </li>
 
 
-                     <li><img src="characters/17.png">
+                     <li class="dropzone" id='16' draggable="true"><img src="characters/17.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -213,7 +214,7 @@
                     </li>
 
 
-                     <li><img src="characters/18.png">
+                     <li class="dropzone" id='17' draggable="true"><img src="characters/18.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -223,7 +224,7 @@
                     </li>
 
 
-                     <li><img src="characters/19.png">
+                     <li class="dropzone" id='18' draggable="true"><img src="characters/19.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -233,7 +234,7 @@
                     </li>
 
 
-                     <li><img src="characters/20.png">
+                     <li class="dropzone" id='19' draggable="true"><img src="characters/20.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -243,7 +244,7 @@
                     </li>
 
 
-                     <li><img src="characters/21.png">
+                     <li class="dropzone" id='20' draggable="true"><img src="characters/21.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -253,7 +254,7 @@
                     </li>
 
 
-                     <li><img src="characters/22.png">
+                     <li class="dropzone" id='21' draggable="true"><img src="characters/22.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -263,7 +264,7 @@
                     </li>
 
 
-                     <li><img src="characters/23.png">
+                     <li class="dropzone" id='22' draggable="true"><img src="characters/23.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -273,7 +274,7 @@
                     </li>
 
 
-                     <li><img src="characters/24.png">
+                     <li class="dropzone" id='23' draggable="true"><img src="characters/24.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -283,7 +284,7 @@
                     </li>
 
 
-                     <li><img src="characters/25.png">
+                     <li class="dropzone" id='24' draggable="true"><img src="characters/25.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -293,7 +294,7 @@
                     </li>
 
 
-                     <li><img src="characters/26.png">
+                     <li class="dropzone" id='25' draggable="true"><img src="characters/26.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -303,7 +304,7 @@
                     </li>
 
 
-                     <li><img src="characters/27.png">
+                     <li class="dropzone" id='26' draggable="true"><img src="characters/27.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -313,7 +314,7 @@
                     </li>
 
 
-                     <li><img src="characters/28.png">
+                     <li class="dropzone" id='27' draggable="true"><img src="characters/28.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -323,7 +324,7 @@
                     </li>
 
 
-                     <li><img src="characters/29.png">
+                     <li class="dropzone" id='28' draggable="true"><img src="characters/29.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -333,7 +334,7 @@
                     </li>
 
 
-                     <li><img src="characters/30.png">
+                     <li class="dropzone" id='29' draggable="true"><img src="characters/30.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -343,7 +344,7 @@
                     </li>
 
 
-                     <li><img src="characters/31.png">
+                     <li class="dropzone" id='30' draggable="true"><img src="characters/31.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -353,7 +354,7 @@
                     </li>
 
 
-                     <li><img src="characters/32.png">
+                     <li class="dropzone" id='31' draggable="true"><img src="characters/32.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -363,7 +364,7 @@
                     </li>
 
 
-                     <li><img src="characters/33.png">
+                     <li class="dropzone" id='32' draggable="true"><img src="characters/33.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -373,7 +374,7 @@
                     </li>
 
 
-                     <li><img src="characters/34.png">
+                     <li class="dropzone" id='33' draggable="true"><img src="characters/34.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -383,7 +384,7 @@
                     </li>
 
 
-                     <li><img src="characters/35.png">
+                     <li class="dropzone" id='34' draggable="true"><img src="characters/35.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -393,7 +394,7 @@
                     </li>
 
 
-                     <li><img src="characters/36.png">
+                     <li class="dropzone" id='35' draggable="true"><img src="characters/36.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -403,7 +404,7 @@
                     </li>
 
 
-                     <li><img src="characters/37.png">
+                     <li class="dropzone" id='36' draggable="true"><img src="characters/37.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -413,7 +414,7 @@
                     </li>
 
 
-                     <li><img src="characters/38.png">
+                     <li class="dropzone" id='37' draggable="true"><img src="characters/38.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -423,7 +424,7 @@
                     </li>
 
 
-                     <li><img src="characters/39.png">
+                     <li class="dropzone" id='38' draggable="true"><img src="characters/39.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -433,7 +434,7 @@
                     </li>
 
 
-                     <li><img src="characters/40.png">
+                     <li class="dropzone" id='39' draggable="true"><img src="characters/40.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -443,7 +444,7 @@
                     </li>
 
 
-                     <li><img src="characters/41.png">
+                     <li class="dropzone" id='40' draggable="true"><img src="characters/41.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -453,7 +454,7 @@
                     </li>
 
 
-                     <li><img src="characters/42.png">
+                     <li class="dropzone" id='41' draggable="true"><img src="characters/42.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -463,7 +464,7 @@
                     </li>
 
 
-                     <li><img src="characters/43.png">
+                     <li class="dropzone" id='42' draggable="true"><img src="characters/43.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -473,7 +474,7 @@
                     </li>
 
 
-                     <li><img src="characters/44.png">
+                     <li class="dropzone" id='43' draggable="true"><img src="characters/44.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -483,7 +484,7 @@
                     </li>
 
 
-                     <li><img src="characters/45.png">
+                     <li class="dropzone" id='44' draggable="true"><img src="characters/45.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -493,7 +494,7 @@
                     </li>
 
 
-                     <li><img src="characters/46.png">
+                     <li class="dropzone" id='45' draggable="true"><img src="characters/46.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -503,7 +504,7 @@
                     </li>
 
 
-                     <li><img src="characters/47.png">
+                     <li class="dropzone" id='46' draggable="true"><img src="characters/47.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -513,7 +514,7 @@
                     </li>
 
 
-                     <li><img src="characters/48.png">
+                     <li class="dropzone" id='47' draggable="true"><img src="characters/48.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -523,7 +524,7 @@
                     </li>
 
 
-                     <li><img src="characters/49.png">
+                     <li class="dropzone" id='48' draggable="true"><img src="characters/49.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -533,7 +534,7 @@
                     </li>
 
 
-                     <li><img src="characters/50.png">
+                     <li class="dropzone" id='49' draggable="true"><img src="characters/50.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -543,7 +544,7 @@
                     </li>
 
 
-                     <li><img src="characters/51.png">
+                     <li class="dropzone" id='50' draggable="true"><img src="characters/51.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -553,7 +554,7 @@
                     </li>
 
 
-                     <li><img src="characters/52.png">
+                     <li class="dropzone" id='51' draggable="true"><img src="characters/52.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -563,7 +564,7 @@
                     </li>
 
 
-                     <li><img src="characters/53.png">
+                     <li class="dropzone" id='52' draggable="true"><img src="characters/53.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -573,7 +574,7 @@
                     </li>
 
 
-                     <li><img src="characters/54.png">
+                     <li class="dropzone" id='53' draggable="true"><img src="characters/54.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -583,7 +584,7 @@
                     </li>
 
 
-                     <li><img src="characters/55.png">
+                     <li class="dropzone" id='54' draggable="true"><img src="characters/55.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -593,7 +594,7 @@
                     </li>
 
 
-                     <li><img src="characters/56.png">
+                     <li class="dropzone" id='55' draggable="true"><img src="characters/56.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -603,7 +604,7 @@
                     </li>
 
 
-                     <li><img src="characters/57.png">
+                     <li class="dropzone" id='56' draggable="true"><img src="characters/57.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -613,7 +614,7 @@
                     </li>
 
 
-                     <li><img src="characters/58.png">
+                     <li class="dropzone" id='57' draggable="true"><img src="characters/58.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -623,7 +624,7 @@
                     </li>
 
 
-                     <li><img src="characters/59.png">
+                     <li class="dropzone" id='58' draggable="true"><img src="characters/59.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -633,7 +634,7 @@
                     </li>
 
 
-                     <li><img src="characters/60.png">
+                     <li class="dropzone" id='59' draggable="true"><img src="characters/60.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -643,7 +644,7 @@
                     </li>
 
 
-                     <li><img src="characters/61.png">
+                     <li class="dropzone" id='60' draggable="true"><img src="characters/61.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -653,7 +654,7 @@
                     </li>
 
 
-                     <li><img src="characters/62.png">
+                     <li class="dropzone" id='61' draggable="true"><img src="characters/62.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -663,7 +664,7 @@
                     </li>
 
 
-                     <li><img src="characters/63.png">
+                     <li class="dropzone" id='62' draggable="true"><img src="characters/63.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -673,7 +674,7 @@
                     </li>
 
 
-                     <li><img src="characters/64.png">
+                     <li class="dropzone" id='63' draggable="true"><img src="characters/64.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -683,7 +684,7 @@
                     </li>
 
 
-                     <li><img src="characters/65.png">
+                     <li class="dropzone" id='64' draggable="true"><img src="characters/65.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -693,7 +694,7 @@
                     </li>
 
 
-                     <li><img src="characters/66.png">
+                     <li class="dropzone" id='65' draggable="true"><img src="characters/66.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -703,7 +704,7 @@
                     </li>
 
 
-                     <li><img src="characters/67.png">
+                     <li class="dropzone" id='66' draggable="true"><img src="characters/67.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -713,7 +714,7 @@
                     </li>
 
 
-                     <li><img src="characters/68.png">
+                     <li class="dropzone" id='67' draggable="true"><img src="characters/68.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -723,7 +724,7 @@
                     </li>
 
 
-                     <li><img src="characters/69.png">
+                     <li class="dropzone" id='68' draggable="true"><img src="characters/69.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -733,7 +734,7 @@
                     </li>
 
 
-                     <li><img src="characters/70.png">
+                     <li class="dropzone" id='69' draggable="true"><img src="characters/70.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -743,7 +744,7 @@
                     </li>
 
 
-                     <li><img src="characters/71.png">
+                     <li class="dropzone" id='70' draggable="true"><img src="characters/71.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -753,7 +754,7 @@
                     </li>
 
 
-                     <li><img src="characters/72.png">
+                     <li class="dropzone" id='71' draggable="true"><img src="characters/72.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -763,7 +764,7 @@
                     </li>
 
 
-                     <li><img src="characters/73.png">
+                     <li class="dropzone" id='72' draggable="true"><img src="characters/73.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -773,7 +774,7 @@
                     </li>
 
 
-                     <li><img src="characters/74.png">
+                     <li class="dropzone" id='73' draggable="true"><img src="characters/74.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -783,7 +784,7 @@
                     </li>
 
 
-                     <li><img src="characters/75.png">
+                     <li class="dropzone" id='74' draggable="true"><img src="characters/75.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -793,7 +794,7 @@
                     </li>
 
 
-                     <li><img src="characters/76.png">
+                     <li class="dropzone" id='75' draggable="true"><img src="characters/76.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -803,7 +804,7 @@
                     </li>
 
 
-                     <li><img src="characters/77.png">
+                     <li class="dropzone" id='76' draggable="true"><img src="characters/77.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -813,7 +814,7 @@
                     </li>
 
 
-                     <li><img src="characters/78.png">
+                     <li class="dropzone" id='77' draggable="true"><img src="characters/78.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -823,7 +824,7 @@
                     </li>
 
 
-                     <li><img src="characters/79.png">
+                     <li class="dropzone" id='78' draggable="true"><img src="characters/79.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -833,7 +834,7 @@
                     </li>
 
 
-                     <li><img src="characters/80.png">
+                     <li class="dropzone" id='79' draggable="true"><img src="characters/80.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -843,7 +844,7 @@
                     </li>
 
 
-                     <li><img src="characters/81.png">
+                     <li class="dropzone" id='80' draggable="true"><img src="characters/81.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -853,7 +854,7 @@
                     </li>
 
 
-                     <li><img src="characters/82.png">
+                     <li class="dropzone" id='81' draggable="true"><img src="characters/82.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -863,7 +864,7 @@
                     </li>
 
 
-                     <li><img src="characters/83.png">
+                     <li class="dropzone" id='82' draggable="true"><img src="characters/83.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -873,7 +874,7 @@
                     </li>
 
 
-                     <li><img src="characters/84.png">
+                     <li class="dropzone" id='83' draggable="true"><img src="characters/84.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -883,7 +884,7 @@
                     </li>
 
 
-                     <li><img src="characters/85.png">
+                     <li class="dropzone" id='84' draggable="true"><img src="characters/85.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -893,7 +894,7 @@
                     </li>
 
 
-                     <li><img src="characters/86.png">
+                     <li class="dropzone" id='85' draggable="true"><img src="characters/86.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -903,7 +904,7 @@
                     </li>
 
 
-                     <li><img src="characters/87.png">
+                     <li class="dropzone" id='86' draggable="true"><img src="characters/87.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -913,7 +914,7 @@
                     </li>
 
 
-                     <li><img src="characters/88.png">
+                     <li class="dropzone" id='87' draggable="true"><img src="characters/88.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -923,7 +924,7 @@
                     </li>
 
 
-                     <li><img src="characters/89.png">
+                     <li class="dropzone" id='88' draggable="true"><img src="characters/89.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -933,7 +934,7 @@
                     </li>
 
 
-                     <li><img src="characters/90.png">
+                     <li class="dropzone" id='89' draggable="true"><img src="characters/90.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -943,7 +944,7 @@
                     </li>
 
 
-                     <li><img src="characters/91.png">
+                     <li class="dropzone" id='90' draggable="true"><img src="characters/91.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -953,7 +954,7 @@
                     </li>
 
 
-                     <li><img src="characters/92.png">
+                     <li class="dropzone" id='91' draggable="true"><img src="characters/92.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -963,7 +964,7 @@
                     </li>
 
 
-                     <li><img src="characters/93.png">
+                     <li class="dropzone" id='92' draggable="true"><img src="characters/93.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -973,7 +974,7 @@
                     </li>
 
 
-                     <li><img src="characters/94.png">
+                     <li class="dropzone" id='93' draggable="true"><img src="characters/94.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -983,7 +984,7 @@
                     </li>
 
 
-                     <li><img src="characters/95.png">
+                     <li class="dropzone" id='94' draggable="true"><img src="characters/95.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -993,7 +994,7 @@
                     </li>
 
 
-                     <li><img src="characters/96.png">
+                     <li class="dropzone" id='95' draggable="true"><img src="characters/96.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -1003,7 +1004,7 @@
                     </li>
 
 
-                     <li><img src="characters/97.png">
+                     <li class="dropzone" id='96' draggable="true"><img src="characters/97.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -1013,7 +1014,7 @@
                     </li>
 
 
-                     <li><img src="characters/98.png">
+                     <li class="dropzone" id='97' draggable="true"><img src="characters/98.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -1023,7 +1024,7 @@
                     </li>
 
 
-                     <li><img src="characters/99.png">
+                     <li class="dropzone" id='98' draggable="true"><img src="characters/99.png">
                         <div class="caption">
                             <div class="blur"></div>
                             <div class="caption-text">
@@ -1033,7 +1034,7 @@
                     </li>
 
 
-                     <li><img src="characters/100.png">
+                     <li class="dropzone" id='99' draggable="true"><img src="characters/100.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1043,7 +1044,7 @@
                     </li>
 
 
-                     <li><img src="characters/101.png">
+                     <li class="dropzone" id='100' draggable="true"><img src="characters/101.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1053,7 +1054,7 @@
                     </li>
 
 
-                     <li><img src="characters/102.png">
+                     <li class="dropzone" id='101' draggable="true"><img src="characters/102.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1063,7 +1064,7 @@
                     </li>
 
 
-                     <li><img src="characters/103.png">
+                     <li class="dropzone" id='102' draggable="true"><img src="characters/103.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1073,7 +1074,7 @@
                     </li>
 
 
-                     <li><img src="characters/104.png">
+                     <li class="dropzone" id='103' draggable="true"><img src="characters/104.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1083,7 +1084,7 @@
                     </li>
 
 
-                     <li><img src="characters/105.png">
+                     <li class="dropzone" id='104' draggable="true"><img src="characters/105.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1093,7 +1094,7 @@
                     </li>
 
 
-                     <li><img src="characters/106.png">
+                     <li class="dropzone" id='105' draggable="true"><img src="characters/106.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1103,7 +1104,7 @@
                     </li>
 
 
-                     <li><img src="characters/107.png">
+                     <li class="dropzone" id='106' draggable="true"><img src="characters/107.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1113,7 +1114,7 @@
                     </li>
 
 
-                     <li><img src="characters/108.png">
+                     <li class="dropzone" id='107' draggable="true"><img src="characters/108.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1123,7 +1124,7 @@
                     </li>
 
 
-                     <li><img src="characters/109.png">
+                     <li class="dropzone" id='108' draggable="true"><img src="characters/109.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1133,7 +1134,7 @@
                     </li>
 
 
-                     <li><img src="characters/110.png">
+                     <li class="dropzone" id='109' draggable="true"><img src="characters/110.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1143,7 +1144,7 @@
                     </li>
 
 
-                     <li><img src="characters/111.png">
+                     <li class="dropzone" id='110' draggable="true"><img src="characters/111.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1153,7 +1154,7 @@
                     </li>
 
 
-                     <li><img src="characters/112.png">
+                     <li class="dropzone" id='111' draggable="true"><img src="characters/112.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1163,7 +1164,7 @@
                     </li>
 
 
-                     <li><img src="characters/113.png">
+                     <li class="dropzone" id='112' draggable="true"><img src="characters/113.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1173,7 +1174,7 @@
                     </li>
 
 
-                     <li><img src="characters/114.png">
+                     <li class="dropzone" id='113' draggable="true"><img src="characters/114.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1183,7 +1184,7 @@
                     </li>
 
 
-                     <li><img src="characters/115.png">
+                     <li class="dropzone" id='114' draggable="true"><img src="characters/115.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1193,7 +1194,7 @@
                     </li>
 
 
-                     <li><img src="characters/116.png">
+                     <li class="dropzone" id='115' draggable="true"><img src="characters/116.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1203,7 +1204,7 @@
                     </li>
 
 
-                     <li><img src="characters/117.png">
+                     <li class="dropzone" id='116' draggable="true"><img src="characters/117.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1213,7 +1214,7 @@
                     </li>
 
 
-                     <li><img src="characters/118.png">
+                     <li class="dropzone" id='117' draggable="true"><img src="characters/118.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1223,7 +1224,7 @@
                     </li>
 
 
-                     <li><img src="characters/119.png">
+                     <li class="dropzone" id='118' draggable="true"><img src="characters/119.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1233,7 +1234,7 @@
                     </li>
 
 
-                     <li><img src="characters/120.png">
+                     <li class="dropzone" id='119' draggable="true"><img src="characters/120.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1243,7 +1244,7 @@
                     </li>
 
 
-                     <li><img src="characters/121.png">
+                     <li class="dropzone" id='120' draggable="true"><img src="characters/121.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1253,7 +1254,7 @@
                     </li>
 
 
-                     <li><img src="characters/122.png">
+                     <li class="dropzone" id='121' draggable="true"><img src="characters/122.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1263,7 +1264,7 @@
                     </li>
 
 
-                     <li><img src="characters/123.png">
+                     <li class="dropzone" id='122' draggable="true"><img src="characters/123.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1273,7 +1274,7 @@
                     </li>
 
 
-                     <li><img src="characters/124.png">
+                     <li class="dropzone" id='123' draggable="true"><img src="characters/124.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1283,7 +1284,7 @@
                     </li>
 
 
-                     <li><img src="characters/125.png">
+                     <li class="dropzone" id='124' draggable="true"><img src="characters/125.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1293,7 +1294,7 @@
                     </li>
 
 
-                     <li><img src="characters/126.png">
+                     <li class="dropzone" id='125' draggable="true"><img src="characters/126.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1303,7 +1304,7 @@
                     </li>
 
 
-                     <li><img src="characters/127.png">
+                     <li class="dropzone" id='126' draggable="true"><img src="characters/127.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1313,7 +1314,7 @@
                     </li>
 
 
-                     <li><img src="characters/128.png">
+                     <li class="dropzone" id='127' draggable="true"><img src="characters/128.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1323,7 +1324,7 @@
                     </li>
 
 
-                     <li><img src="characters/129.png">
+                     <li class="dropzone" id='128' draggable="true"><img src="characters/129.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1333,7 +1334,7 @@
                     </li>
 
 
-                     <li><img src="characters/130.png">
+                     <li class="dropzone" id='129' draggable="true"><img src="characters/130.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1343,7 +1344,7 @@
                     </li>
 
 
-                     <li><img src="characters/131.png">
+                     <li class="dropzone" id='130' draggable="true"><img src="characters/131.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1353,7 +1354,7 @@
                     </li>
 
 
-                     <li><img src="characters/132.png">
+                     <li class="dropzone" id='131' draggable="true"><img src="characters/132.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1363,7 +1364,7 @@
                     </li>
 
 
-                     <li><img src="characters/133.png">
+                     <li class="dropzone" id='132' draggable="true"><img src="characters/133.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1373,7 +1374,7 @@
                     </li>
 
 
-                     <li><img src="characters/134.png">
+                     <li class="dropzone" id='133' draggable="true"><img src="characters/134.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1383,7 +1384,7 @@
                     </li>
 
 
-                     <li><img src="characters/135.png">
+                     <li class="dropzone" id='134' draggable="true"><img src="characters/135.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1393,7 +1394,7 @@
                     </li>
 
 
-                     <li><img src="characters/136.png">
+                     <li class="dropzone" id='135' draggable="true"><img src="characters/136.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1403,7 +1404,7 @@
                     </li>
 
 
-                     <li><img src="characters/137.png">
+                     <li class="dropzone" id='136' draggable="true"><img src="characters/137.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1413,7 +1414,7 @@
                     </li>
 
 
-                     <li><img src="characters/138.png">
+                     <li class="dropzone" id='137' draggable="true"><img src="characters/138.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1423,7 +1424,7 @@
                     </li>
 
 
-                     <li><img src="characters/139.png">
+                     <li class="dropzone" id='138' draggable="true"><img src="characters/139.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1433,7 +1434,7 @@
                     </li>
 
 
-                     <li><img src="characters/140.png">
+                     <li class="dropzone" id='139' draggable="true"><img src="characters/140.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1443,7 +1444,7 @@
                     </li>
 
 
-                     <li><img src="characters/141.png">
+                     <li class="dropzone" id='140' draggable="true"><img src="characters/141.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1453,7 +1454,7 @@
                     </li>
 
 
-                     <li><img src="characters/142.png">
+                     <li class="dropzone" id='141' draggable="true"><img src="characters/142.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1463,7 +1464,7 @@
                     </li>
 
 
-                     <li><img src="characters/143.png">
+                     <li class="dropzone" id='142' draggable="true"><img src="characters/143.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1473,7 +1474,7 @@
                     </li>
 
 
-                     <li><img src="characters/144.png">
+                     <li class="dropzone" id='143' draggable="true"><img src="characters/144.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1483,7 +1484,7 @@
                     </li>
 
 
-                     <li><img src="characters/145.png">
+                     <li class="dropzone" id='144' draggable="true"><img src="characters/145.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1493,7 +1494,7 @@
                     </li>
 
 
-                     <li><img src="characters/146.png">
+                     <li class="dropzone" id='145' draggable="true"><img src="characters/146.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1503,7 +1504,7 @@
                     </li>
 
 
-                     <li><img src="characters/147.png">
+                     <li class="dropzone" id='146' draggable="true"><img src="characters/147.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1513,7 +1514,7 @@
                     </li>
 
 
-                     <li><img src="characters/148.png">
+                     <li class="dropzone" id='147' draggable="true"><img src="characters/148.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1523,7 +1524,7 @@
                     </li>
 
 
-                     <li><img src="characters/149.png">
+                     <li class="dropzone" id='148' draggable="true"><img src="characters/149.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1533,7 +1534,7 @@
                     </li>
 
 
-                     <li><img src="characters/150.png">
+                     <li class="dropzone" id='149' draggable="true"><img src="characters/150.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1543,7 +1544,7 @@
                     </li>
 
 
-                     <li><img src="characters/151.png">
+                     <li class="dropzone" id='150' draggable="true"><img src="characters/151.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1553,7 +1554,7 @@
                     </li>
 
 
-                     <li><img src="characters/152.png">
+                     <li class="dropzone" id='151' draggable="true"><img src="characters/152.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1563,7 +1564,7 @@
                     </li>
 
 
-                     <li><img src="characters/153.png">
+                     <li class="dropzone" id='152' draggable="true"><img src="characters/153.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1573,7 +1574,7 @@
                     </li>
 
 
-                     <li><img src="characters/154.png">
+                     <li class="dropzone" id='153' draggable="true"><img src="characters/154.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1583,7 +1584,7 @@
                     </li>
 
 
-                     <li><img src="characters/155.png">
+                     <li class="dropzone" id='154' draggable="true"><img src="characters/155.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1593,7 +1594,7 @@
                     </li>
 
 
-                     <li><img src="characters/156.png">
+                     <li class="dropzone" id='155' draggable="true"><img src="characters/156.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1603,7 +1604,7 @@
                     </li>
 
 
-                     <li><img src="characters/157.png">
+                     <li class="dropzone" id='156' draggable="true"><img src="characters/157.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1613,7 +1614,7 @@
                     </li>
 
 
-                     <li><img src="characters/158.png">
+                     <li class="dropzone" id='157' draggable="true"><img src="characters/158.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1623,7 +1624,7 @@
                     </li>
 
 
-                     <li><img src="characters/159.png">
+                     <li class="dropzone" id='158' draggable="true"><img src="characters/159.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1633,7 +1634,7 @@
                     </li>
 
 
-                     <li><img src="characters/160.png">
+                     <li class="dropzone" id='159' draggable="true"><img src="characters/160.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1643,7 +1644,7 @@
                     </li>
 
 
-                     <li><img src="characters/161.png">
+                     <li class="dropzone" id='160' draggable="true"><img src="characters/161.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1653,7 +1654,7 @@
                     </li>
 
 
-                     <li><img src="characters/162.png">
+                     <li class="dropzone" id='161' draggable="true"><img src="characters/162.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1663,7 +1664,7 @@
                     </li>
 
 
-                     <li><img src="characters/163.png">
+                     <li class="dropzone" id='162' draggable="true"><img src="characters/163.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1673,7 +1674,7 @@
                     </li>
 
 
-                     <li><img src="characters/164.png">
+                     <li class="dropzone" id='163' draggable="true"><img src="characters/164.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1683,7 +1684,7 @@
                     </li>
 
 
-                     <li><img src="characters/165.png">
+                     <li class="dropzone" id='164' draggable="true"><img src="characters/165.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1693,7 +1694,7 @@
                     </li>
 
 
-                     <li><img src="characters/166.png">
+                     <li class="dropzone" id='165' draggable="true"><img src="characters/166.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1703,7 +1704,7 @@
                     </li>
 
 
-                     <li><img src="characters/167.png">
+                     <li class="dropzone" id='166' draggable="true"><img src="characters/167.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1713,7 +1714,7 @@
                     </li>
 
 
-                     <li><img src="characters/168.png">
+                     <li class="dropzone" id='167' draggable="true"><img src="characters/168.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1723,7 +1724,7 @@
                     </li>
 
 
-                     <li><img src="characters/169.png">
+                     <li class="dropzone" id='168' draggable="true"><img src="characters/169.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1733,7 +1734,7 @@
                     </li>
 
 
-                     <li><img src="characters/170.png">
+                     <li class="dropzone" id='169' draggable="true"><img src="characters/170.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1743,7 +1744,7 @@
                     </li>
 
 
-                     <li><img src="characters/171.png">
+                     <li class="dropzone" id='170' draggable="true"><img src="characters/171.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1753,7 +1754,7 @@
                     </li>
 
 
-                     <li><img src="characters/172.png">
+                     <li class="dropzone" id='171' draggable="true"><img src="characters/172.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1763,7 +1764,7 @@
                     </li>
 
 
-                     <li><img src="characters/173.png">
+                     <li class="dropzone" id='172' draggable="true"><img src="characters/173.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1773,7 +1774,7 @@
                     </li>
 
 
-                     <li><img src="characters/174.png">
+                     <li class="dropzone" id='173' draggable="true"><img src="characters/174.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1783,7 +1784,7 @@
                     </li>
 
 
-                     <li><img src="characters/175.png">
+                     <li class="dropzone" id='174' draggable="true"><img src="characters/175.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1793,7 +1794,7 @@
                     </li>
 
 
-                     <li><img src="characters/176.png">
+                     <li class="dropzone" id='175' draggable="true"><img src="characters/176.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1803,7 +1804,7 @@
                     </li>
 
 
-                     <li><img src="characters/177.png">
+                     <li class="dropzone" id='176' draggable="true"><img src="characters/177.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1813,7 +1814,7 @@
                     </li>
 
 
-                     <li><img src="characters/178.png">
+                     <li class="dropzone" id='177' draggable="true"><img src="characters/178.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1823,7 +1824,7 @@
                     </li>
 
 
-                     <li><img src="characters/179.png">
+                     <li class="dropzone" id='178' draggable="true"><img src="characters/179.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1833,7 +1834,7 @@
                     </li>
 
 
-                     <li><img src="characters/180.png">
+                     <li class="dropzone" id='179' draggable="true"><img src="characters/180.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1843,7 +1844,7 @@
                     </li>
 
 
-                     <li><img src="characters/181.png">
+                     <li class="dropzone" id='180' draggable="true"><img src="characters/181.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1853,7 +1854,7 @@
                     </li>
 
 
-                     <li><img src="characters/182.png">
+                     <li class="dropzone" id='181' draggable="true"><img src="characters/182.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1863,7 +1864,7 @@
                     </li>
 
 
-                     <li><img src="characters/183.png">
+                     <li class="dropzone" id='182' draggable="true"><img src="characters/183.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1873,7 +1874,7 @@
                     </li>
 
 
-                     <li><img src="characters/184.png">
+                     <li class="dropzone" id='183' draggable="true"><img src="characters/184.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1883,7 +1884,7 @@
                     </li>
 
 
-                     <li><img src="characters/185.png">
+                     <li class="dropzone" id='184' draggable="true"><img src="characters/185.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1893,7 +1894,7 @@
                     </li>
 
 
-                     <li><img src="characters/186.png">
+                     <li class="dropzone" id='185' draggable="true"><img src="characters/186.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1903,7 +1904,7 @@
                     </li>
 
 
-                     <li><img src="characters/187.png">
+                     <li class="dropzone" id='186' draggable="true"><img src="characters/187.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1913,7 +1914,7 @@
                     </li>
 
 
-                     <li><img src="characters/188.png">
+                     <li class="dropzone" id='187' draggable="true"><img src="characters/188.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1923,7 +1924,7 @@
                     </li>
 
 
-                     <li><img src="characters/189.png">
+                     <li class="dropzone" id='188' draggable="true"><img src="characters/189.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1933,7 +1934,7 @@
                     </li>
 
 
-                     <li><img src="characters/190.png">
+                     <li class="dropzone" id='189' draggable="true"><img src="characters/190.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1943,7 +1944,7 @@
                     </li>
 
 
-                     <li><img src="characters/191.png">
+                     <li class="dropzone" id='190' draggable="true"><img src="characters/191.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1953,7 +1954,7 @@
                     </li>
 
 
-                     <li><img src="characters/192.png">
+                     <li class="dropzone" id='191' draggable="true"><img src="characters/192.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1963,7 +1964,7 @@
                     </li>
 
 
-                     <li><img src="characters/193.png">
+                     <li class="dropzone" id='192' draggable="true"><img src="characters/193.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1973,7 +1974,7 @@
                     </li>
 
 
-                     <li><img src="characters/194.png">
+                     <li class="dropzone" id='193' draggable="true"><img src="characters/194.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1983,7 +1984,7 @@
                     </li>
 
 
-                     <li><img src="characters/195.png">
+                     <li class="dropzone" id='194' draggable="true"><img src="characters/195.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -1993,7 +1994,7 @@
                     </li>
 
 
-                     <li><img src="characters/196.png">
+                     <li class="dropzone" id='195' draggable="true"><img src="characters/196.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2003,7 +2004,7 @@
                     </li>
 
 
-                     <li><img src="characters/197.png">
+                     <li class="dropzone" id='196' draggable="true"><img src="characters/197.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2013,7 +2014,7 @@
                     </li>
 
 
-                     <li><img src="characters/198.png">
+                     <li class="dropzone" id='197' draggable="true"><img src="characters/198.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2023,7 +2024,7 @@
                     </li>
 
 
-                     <li><img src="characters/199.png">
+                     <li class="dropzone" id='198' draggable="true"><img src="characters/199.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2033,7 +2034,7 @@
                     </li>
 
 
-                     <li><img src="characters/200.png">
+                     <li class="dropzone" id='199' draggable="true"><img src="characters/200.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2043,7 +2044,7 @@
                     </li>
 
 
-                     <li><img src="characters/201.png">
+                     <li class="dropzone" id='200' draggable="true"><img src="characters/201.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2053,7 +2054,7 @@
                     </li>
 
 
-                     <li><img src="characters/202.png">
+                     <li class="dropzone" id='201' draggable="true"><img src="characters/202.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2063,7 +2064,7 @@
                     </li>
 
 
-                     <li><img src="characters/203.png">
+                     <li class="dropzone" id='202' draggable="true"><img src="characters/203.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2073,7 +2074,7 @@
                     </li>
 
 
-                     <li><img src="characters/204.png">
+                     <li class="dropzone" id='203' draggable="true"><img src="characters/204.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2083,7 +2084,7 @@
                     </li>
 
 
-                     <li><img src="characters/205.png">
+                     <li class="dropzone" id='204' draggable="true"><img src="characters/205.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2093,7 +2094,7 @@
                     </li>
 
 
-                     <li><img src="characters/206.png">
+                     <li class="dropzone" id='205' draggable="true"><img src="characters/206.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2103,7 +2104,7 @@
                     </li>
 
 
-                     <li><img src="characters/207.png">
+                     <li class="dropzone" id='206' draggable="true"><img src="characters/207.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2113,7 +2114,7 @@
                     </li>
 
 
-                     <li><img src="characters/208.png">
+                     <li class="dropzone" id='207' draggable="true"><img src="characters/208.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2123,7 +2124,7 @@
                     </li>
 
 
-                     <li><img src="characters/209.png">
+                     <li class="dropzone" id='208' draggable="true"><img src="characters/209.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2133,7 +2134,7 @@
                     </li>
 
 
-                     <li><img src="characters/210.png">
+                     <li class="dropzone" id='209' draggable="true"><img src="characters/210.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2143,7 +2144,7 @@
                     </li>
 
 
-                     <li><img src="characters/211.png">
+                     <li class="dropzone" id='210' draggable="true"><img src="characters/211.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2153,7 +2154,7 @@
                     </li>
 
 
-                     <li><img src="characters/212.png">
+                     <li class="dropzone" id='211' draggable="true"><img src="characters/212.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2163,7 +2164,7 @@
                     </li>
 
 
-                     <li><img src="characters/213.png">
+                     <li class="dropzone" id='212' draggable="true"><img src="characters/213.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2173,7 +2174,7 @@
                     </li>
 
 
-                     <li><img src="characters/214.png">
+                     <li class="dropzone" id='213' draggable="true"><img src="characters/214.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2183,7 +2184,7 @@
                     </li>
 
 
-                     <li><img src="characters/215.png">
+                     <li class="dropzone" id='214' draggable="true"><img src="characters/215.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2193,7 +2194,7 @@
                     </li>
 
 
-                     <li><img src="characters/216.png">
+                     <li class="dropzone" id='215' draggable="true"><img src="characters/216.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2203,7 +2204,7 @@
                     </li>
 
 
-                     <li><img src="characters/217.png">
+                     <li class="dropzone" id='216' draggable="true"><img src="characters/217.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2213,7 +2214,7 @@
                     </li>
 
 
-                     <li><img src="characters/218.png">
+                     <li class="dropzone" id='217' draggable="true"><img src="characters/218.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2223,7 +2224,7 @@
                     </li>
 
 
-                     <li><img src="characters/219.png">
+                     <li class="dropzone" id='218' draggable="true"><img src="characters/219.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2233,7 +2234,7 @@
                     </li>
 
 
-                     <li><img src="characters/220.png">
+                     <li class="dropzone" id='219' draggable="true"><img src="characters/220.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2243,7 +2244,7 @@
                     </li>
 
 
-                     <li><img src="characters/221.png">
+                     <li class="dropzone" id='220' draggable="true"><img src="characters/221.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2253,7 +2254,7 @@
                     </li>
 
 
-                     <li><img src="characters/222.png">
+                     <li class="dropzone" id='221' draggable="true"><img src="characters/222.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2263,7 +2264,7 @@
                     </li>
 
 
-                     <li><img src="characters/223.png">
+                     <li class="dropzone" id='222' draggable="true"><img src="characters/223.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2273,7 +2274,7 @@
                     </li>
 
 
-                     <li><img src="characters/224.png">
+                     <li class="dropzone" id='223' draggable="true"><img src="characters/224.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2283,7 +2284,7 @@
                     </li>
 
 
-                     <li><img src="characters/225.png">
+                     <li class="dropzone" id='224' draggable="true"><img src="characters/225.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2293,7 +2294,7 @@
                     </li>
 
 
-                     <li><img src="characters/226.png">
+                     <li class="dropzone" id='225' draggable="true"><img src="characters/226.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2303,7 +2304,7 @@
                     </li>
 
 
-                     <li><img src="characters/227.png">
+                     <li class="dropzone" id='226' draggable="true"><img src="characters/227.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2313,7 +2314,7 @@
                     </li>
 
 
-                     <li><img src="characters/228.png">
+                     <li class="dropzone" id='227' draggable="true"><img src="characters/228.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2323,7 +2324,7 @@
                     </li>
 
 
-                     <li><img src="characters/229.png">
+                     <li class="dropzone" id='228' draggable="true"><img src="characters/229.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2333,7 +2334,7 @@
                     </li>
 
 
-                     <li><img src="characters/230.png">
+                     <li class="dropzone" id='229' draggable="true"><img src="characters/230.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2343,7 +2344,7 @@
                     </li>
 
 
-                     <li><img src="characters/231.png">
+                     <li class="dropzone" id='230' draggable="true"><img src="characters/231.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2353,7 +2354,7 @@
                     </li>
 
 
-                     <li><img src="characters/232.png">
+                     <li class="dropzone" id='231' draggable="true"><img src="characters/232.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2363,7 +2364,7 @@
                     </li>
 
 
-                     <li><img src="characters/233.png">
+                     <li class="dropzone" id='232' draggable="true"><img src="characters/233.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2373,7 +2374,7 @@
                     </li>
 
 
-                     <li><img src="characters/234.png">
+                     <li class="dropzone" id='233' draggable="true"><img src="characters/234.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2383,7 +2384,7 @@
                     </li>
 
 
-                     <li><img src="characters/235.png">
+                     <li class="dropzone" id='234' draggable="true"><img src="characters/235.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2393,7 +2394,7 @@
                     </li>
 
 
-                     <li><img src="characters/236.png">
+                     <li class="dropzone" id='235' draggable="true"><img src="characters/236.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2403,7 +2404,7 @@
                     </li>
 
 
-                     <li><img src="characters/237.png">
+                     <li class="dropzone" id='236' draggable="true"><img src="characters/237.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2413,7 +2414,7 @@
                     </li>
 
 
-                     <li><img src="characters/238.png">
+                     <li class="dropzone" id='237' draggable="true"><img src="characters/238.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2423,7 +2424,7 @@
                     </li>
 
 
-                     <li><img src="characters/239.png">
+                     <li class="dropzone" id='238' draggable="true"><img src="characters/239.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2433,7 +2434,7 @@
                     </li>
 
 
-                     <li><img src="characters/240.png">
+                     <li class="dropzone" id='239' draggable="true"><img src="characters/240.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2443,7 +2444,7 @@
                     </li>
 
 
-                     <li><img src="characters/241.png">
+                     <li class="dropzone" id='240' draggable="true"><img src="characters/241.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2453,7 +2454,7 @@
                     </li>
 
 
-                     <li><img src="characters/242.png">
+                     <li class="dropzone" id='241' draggable="true"><img src="characters/242.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2463,7 +2464,7 @@
                     </li>
 
 
-                     <li><img src="characters/243.png">
+                     <li class="dropzone" id='242' draggable="true"><img src="characters/243.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2473,7 +2474,7 @@
                     </li>
 
 
-                     <li><img src="characters/244.png">
+                     <li class="dropzone" id='243' draggable="true"><img src="characters/244.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2483,7 +2484,7 @@
                     </li>
 
 
-                     <li><img src="characters/245.png">
+                     <li class="dropzone" id='244' draggable="true"><img src="characters/245.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2493,7 +2494,7 @@
                     </li>
 
 
-                     <li><img src="characters/246.png">
+                     <li class="dropzone" id='245' draggable="true"><img src="characters/246.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2503,7 +2504,7 @@
                     </li>
 
 
-                     <li><img src="characters/247.png">
+                     <li class="dropzone" id='246' draggable="true"><img src="characters/247.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2513,7 +2514,7 @@
                     </li>
 
 
-                     <li><img src="characters/248.png">
+                     <li class="dropzone" id='247' draggable="true"><img src="characters/248.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2523,7 +2524,7 @@
                     </li>
 
 
-                     <li><img src="characters/249.png">
+                     <li class="dropzone" id='248' draggable="true"><img src="characters/249.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2533,7 +2534,7 @@
                     </li>
 
 
-                     <li><img src="characters/250.png">
+                     <li class="dropzone" id='249' draggable="true"><img src="characters/250.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2543,7 +2544,7 @@
                     </li>
 
 
-                     <li><img src="characters/251.png">
+                     <li class="dropzone" id='250' draggable="true"><img src="characters/251.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2553,7 +2554,7 @@
                     </li>
 
 
-                     <li><img src="characters/252.png">
+                     <li class="dropzone" id='251' draggable="true"><img src="characters/252.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2563,7 +2564,7 @@
                     </li>
 
 
-                     <li><img src="characters/253.png">
+                     <li class="dropzone" id='252' draggable="true"><img src="characters/253.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2573,7 +2574,7 @@
                     </li>
 
 
-                     <li><img src="characters/254.png">
+                     <li class="dropzone" id='253' draggable="true"><img src="characters/254.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2583,7 +2584,7 @@
                     </li>
 
 
-                     <li><img src="characters/255.png">
+                     <li class="dropzone" id='254' draggable="true"><img src="characters/255.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2593,7 +2594,7 @@
                     </li>
 
 
-                     <li><img src="characters/256.png">
+                     <li class="dropzone" id='255' draggable="true"><img src="characters/256.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2603,7 +2604,7 @@
                     </li>
 
 
-                     <li><img src="characters/257.png">
+                     <li class="dropzone" id='256' draggable="true"><img src="characters/257.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2613,7 +2614,7 @@
                     </li>
 
 
-                     <li><img src="characters/258.png">
+                     <li class="dropzone" id='257' draggable="true"><img src="characters/258.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2623,7 +2624,7 @@
                     </li>
 
 
-                     <li><img src="characters/259.png">
+                     <li class="dropzone" id='258' draggable="true"><img src="characters/259.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2633,7 +2634,7 @@
                     </li>
 
 
-                     <li><img src="characters/260.png">
+                     <li class="dropzone" id='259' draggable="true"><img src="characters/260.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2643,7 +2644,7 @@
                     </li>
 
 
-                     <li><img src="characters/261.png">
+                     <li class="dropzone" id='260' draggable="true"><img src="characters/261.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2653,7 +2654,7 @@
                     </li>
 
 
-                     <li><img src="characters/262.png">
+                     <li class="dropzone" id='261' draggable="true"><img src="characters/262.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2663,7 +2664,7 @@
                     </li>
 
 
-                     <li><img src="characters/263.png">
+                     <li class="dropzone" id='262' draggable="true"><img src="characters/263.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2673,7 +2674,7 @@
                     </li>
 
 
-                     <li><img src="characters/264.png">
+                     <li class="dropzone" id='263' draggable="true"><img src="characters/264.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2683,7 +2684,7 @@
                     </li>
 
 
-                     <li><img src="characters/265.png">
+                     <li class="dropzone" id='264' draggable="true"><img src="characters/265.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2693,7 +2694,7 @@
                     </li>
 
 
-                     <li><img src="characters/266.png">
+                     <li class="dropzone" id='265' draggable="true"><img src="characters/266.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2703,7 +2704,7 @@
                     </li>
 
 
-                     <li><img src="characters/267.png">
+                     <li class="dropzone" id='266' draggable="true"><img src="characters/267.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2713,7 +2714,7 @@
                     </li>
 
 
-                     <li><img src="characters/268.png">
+                     <li class="dropzone" id='267' draggable="true"><img src="characters/268.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2723,7 +2724,7 @@
                     </li>
 
 
-                     <li><img src="characters/269.png">
+                     <li class="dropzone" id='268' draggable="true"><img src="characters/269.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2733,7 +2734,7 @@
                     </li>
 
 
-                     <li><img src="characters/270.png">
+                     <li class="dropzone" id='269' draggable="true"><img src="characters/270.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2743,7 +2744,7 @@
                     </li>
 
 
-                     <li><img src="characters/271.png">
+                     <li class="dropzone" id='270' draggable="true"><img src="characters/271.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2753,7 +2754,7 @@
                     </li>
 
 
-                     <li><img src="characters/272.png">
+                     <li class="dropzone" id='271' draggable="true"><img src="characters/272.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2763,7 +2764,7 @@
                     </li>
 
 
-                     <li><img src="characters/273.png">
+                     <li class="dropzone" id='272' draggable="true"><img src="characters/273.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2773,7 +2774,7 @@
                     </li>
 
 
-                     <li><img src="characters/274.png">
+                     <li class="dropzone" id='273' draggable="true"><img src="characters/274.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2783,7 +2784,7 @@
                     </li>
 
 
-                     <li><img src="characters/275.png">
+                     <li class="dropzone" id='274' draggable="true"><img src="characters/275.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2793,7 +2794,7 @@
                     </li>
 
 
-                     <li><img src="characters/276.png">
+                     <li class="dropzone" id='275' draggable="true"><img src="characters/276.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2803,7 +2804,7 @@
                     </li>
 
 
-                     <li><img src="characters/277.png">
+                     <li class="dropzone" id='276' draggable="true"><img src="characters/277.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2813,7 +2814,7 @@
                     </li>
 
 
-                     <li><img src="characters/278.png">
+                     <li class="dropzone" id='277' draggable="true"><img src="characters/278.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2823,7 +2824,7 @@
                     </li>
 
 
-                     <li><img src="characters/279.png">
+                     <li class="dropzone" id='278' draggable="true"><img src="characters/279.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2833,7 +2834,7 @@
                     </li>
 
 
-                     <li><img src="characters/280.png">
+                     <li class="dropzone" id='279' draggable="true"><img src="characters/280.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2843,7 +2844,7 @@
                     </li>
 
 
-                     <li><img src="characters/281.png">
+                     <li class="dropzone" id='280' draggable="true"><img src="characters/281.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2853,7 +2854,7 @@
                     </li>
 
 
-                     <li><img src="characters/282.png">
+                     <li class="dropzone" id='281' draggable="true"><img src="characters/282.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2863,7 +2864,7 @@
                     </li>
 
 
-                     <li><img src="characters/283.png">
+                     <li class="dropzone" id='282' draggable="true"><img src="characters/283.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2873,7 +2874,7 @@
                     </li>
 
 
-                     <li><img src="characters/284.png">
+                     <li class="dropzone" id='283' draggable="true"><img src="characters/284.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2883,7 +2884,7 @@
                     </li>
 
 
-                     <li><img src="characters/285.png">
+                     <li class="dropzone" id='284' draggable="true"><img src="characters/285.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2893,7 +2894,7 @@
                     </li>
 
 
-                     <li><img src="characters/286.png">
+                     <li class="dropzone" id='285' draggable="true"><img src="characters/286.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2903,7 +2904,7 @@
                     </li>
 
 
-                     <li><img src="characters/287.png">
+                     <li class="dropzone" id='286' draggable="true"><img src="characters/287.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2913,7 +2914,7 @@
                     </li>
 
 
-                     <li><img src="characters/288.png">
+                     <li class="dropzone" id='287' draggable="true"><img src="characters/288.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2923,7 +2924,7 @@
                     </li>
 
 
-                     <li><img src="characters/289.png">
+                     <li class="dropzone" id='288' draggable="true"><img src="characters/289.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2933,7 +2934,7 @@
                     </li>
 
 
-                     <li><img src="characters/290.png">
+                     <li class="dropzone" id='289' draggable="true"><img src="characters/290.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2943,7 +2944,7 @@
                     </li>
 
 
-                     <li><img src="characters/291.png">
+                     <li class="dropzone" id='290' draggable="true"><img src="characters/291.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2953,7 +2954,7 @@
                     </li>
 
 
-                     <li><img src="characters/292.png">
+                     <li class="dropzone" id='291' draggable="true"><img src="characters/292.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2963,7 +2964,7 @@
                     </li>
 
 
-                     <li><img src="characters/293.png">
+                     <li class="dropzone" id='292' draggable="true"><img src="characters/293.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2973,7 +2974,7 @@
                     </li>
 
 
-                     <li><img src="characters/294.png">
+                     <li class="dropzone" id='293' draggable="true"><img src="characters/294.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2983,7 +2984,7 @@
                     </li>
 
 
-                     <li><img src="characters/295.png">
+                     <li class="dropzone" id='294' draggable="true"><img src="characters/295.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -2993,7 +2994,7 @@
                     </li>
 
 
-                     <li><img src="characters/296.png">
+                     <li class="dropzone" id='295' draggable="true"><img src="characters/296.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3003,7 +3004,7 @@
                     </li>
 
 
-                     <li><img src="characters/297.png">
+                     <li class="dropzone" id='296' draggable="true"><img src="characters/297.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3013,7 +3014,7 @@
                     </li>
 
 
-                     <li><img src="characters/298.png">
+                     <li class="dropzone" id='297' draggable="true"><img src="characters/298.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3023,7 +3024,7 @@
                     </li>
 
 
-                     <li><img src="characters/299.png">
+                     <li class="dropzone" id='298' draggable="true"><img src="characters/299.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3033,7 +3034,7 @@
                     </li>
 
 
-                     <li><img src="characters/300.png">
+                     <li class="dropzone" id='299' draggable="true"><img src="characters/300.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3043,7 +3044,7 @@
                     </li>
 
 
-                     <li><img src="characters/301.png">
+                     <li class="dropzone" id='300' draggable="true"><img src="characters/301.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3053,7 +3054,7 @@
                     </li>
 
 
-                     <li><img src="characters/302.png">
+                     <li class="dropzone" id='301' draggable="true"><img src="characters/302.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3063,7 +3064,7 @@
                     </li>
 
 
-                     <li><img src="characters/303.png">
+                     <li class="dropzone" id='302' draggable="true"><img src="characters/303.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3073,7 +3074,7 @@
                     </li>
 
 
-                     <li><img src="characters/304.png">
+                     <li class="dropzone" id='303' draggable="true"><img src="characters/304.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3083,7 +3084,7 @@
                     </li>
 
 
-                     <li><img src="characters/305.png">
+                     <li class="dropzone" id='304' draggable="true"><img src="characters/305.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3093,7 +3094,7 @@
                     </li>
 
 
-                     <li><img src="characters/306.png">
+                     <li class="dropzone" id='305' draggable="true"><img src="characters/306.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3103,7 +3104,7 @@
                     </li>
 
 
-                     <li><img src="characters/307.png">
+                     <li class="dropzone" id='306' draggable="true"><img src="characters/307.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3113,7 +3114,7 @@
                     </li>
 
 
-                     <li><img src="characters/308.png">
+                     <li class="dropzone" id='307' draggable="true"><img src="characters/308.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3123,7 +3124,7 @@
                     </li>
 
 
-                     <li><img src="characters/309.png">
+                     <li class="dropzone" id='308' draggable="true"><img src="characters/309.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3133,7 +3134,7 @@
                     </li>
 
 
-                     <li><img src="characters/310.png">
+                     <li class="dropzone" id='309' draggable="true"><img src="characters/310.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3143,7 +3144,7 @@
                     </li>
 
 
-                     <li><img src="characters/311.png">
+                     <li class="dropzone" id='310' draggable="true"><img src="characters/311.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3153,7 +3154,7 @@
                     </li>
 
 
-                     <li><img src="characters/312.png">
+                     <li class="dropzone" id='311' draggable="true"><img src="characters/312.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3163,7 +3164,7 @@
                     </li>
 
 
-                     <li><img src="characters/313.png">
+                     <li class="dropzone" id='312' draggable="true"><img src="characters/313.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3173,7 +3174,7 @@
                     </li>
 
 
-                     <li><img src="characters/314.png">
+                     <li class="dropzone" id='313' draggable="true"><img src="characters/314.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3183,7 +3184,7 @@
                     </li>
 
 
-                     <li><img src="characters/315.png">
+                     <li class="dropzone" id='314' draggable="true"><img src="characters/315.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
@@ -3193,7 +3194,7 @@
                     </li>
 
 
-                     <li><img src="characters/316.png">
+                     <li class="dropzone" id='315' draggable="true"><img src="characters/316.png">
                     <div class="caption">
                         <div class="blur"></div>
                         <div class="caption-text">
