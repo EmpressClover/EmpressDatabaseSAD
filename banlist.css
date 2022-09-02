@@ -296,3 +296,8 @@ button:hover, .btn:hover, #fileInput:hover {
     border: 1px solid #ffffff00;
 }
 
+
+#filterInput {
+    top:2vh;
+    position: relative;
+}

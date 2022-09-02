@@ -1,7 +1,5 @@
 
 
-
-
 function takescreenshot() {
         
     html2canvas(document.querySelector("#root")).then(canvas => {
@@ -134,3 +132,7 @@ let list;
       }
     }
   });
+
+
+
+
