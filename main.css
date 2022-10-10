@@ -133,8 +133,10 @@ flex-wrap: wrap;
 
 
   .war:hover {
-    content: url(warhover.png);
-
+    content: url(teamcreatehover.png);
+    
+    transform: translatey(-10px);
+    box-shadow: 0px 0px 20px #c30234;
   }
 
   .chakra:hover {
@@ -217,7 +219,3 @@ a:link {color: #cccccc;}
 a:visited {color: #cccccc}  
 a:hover {color: #ffffff}  
 a:active {color: #cccccc}  
-
-.war {
-  filter: grayscale(100%) brightness(30%)
-}
