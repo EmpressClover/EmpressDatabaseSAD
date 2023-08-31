@@ -35,6 +35,12 @@
 
                 </div>
 
+                <br><br>
+
+                <input class="searchint" type="text" placeholder="Search for Open Character">
+                <p class="info3">Note: Clear the search bar before downloading your preset or opening free characters image</p>
+
+
                 <div id="root" class="root2">
                     
                     <div class="characters">
@@ -3550,11 +3556,11 @@
                                         </li>
 
 
-                                        <li class="dropzone" id='369' draggable="true"><img src="characters/Hyuuga Hanabi B.jpg">
+                                        <li class="dropzone" id='369' draggable="true"><img src="characters/Hyuuga Hiashi B.png">
                                             <div class="caption">
                                                 <div class="blur"></div>
                                                 <div class="caption-text">
-                                                    <p>Hyuuga Hanabi (B)   </p>
+                                                    <p>Hyuuga Hiashi (B)   </p>
                                                 </div>
                                             </div>
                                             </li>
@@ -3944,14 +3950,18 @@
                 <br><br>
     <div class="center">
         <input type="file" id="fileInput" class="root2">
-    <button onclick="takescreenshot()" class="root2">Open Image</button>
+    <button onclick="takescreenshot()" class="root2">Open Free Characters Image</button>
     <button onClick="window.location.reload();" class="root2">Refresh Page</button>
-    <button type="button" id="downloadInput" class="root2">Download</button>
+    <button type="button" id="downloadInput" class="root2">Download Preset</button>
     </div>
 
     
     <br><br>    <br><br>    <br><br>
     <br><br>    <br><br>    <br><br>
+
+    <input class="searchint2" type="text" placeholder="Search for Banned Character">
+
+    <p class="info3">Note: Clear the search bar before downloading your preset or opening banned image</p>
 
     <div id="root3" class="root2">
         <div class="characters2">
@@ -3960,12 +3970,72 @@
     </ul>
     </div>
     </div>
+
+    <br><br>
     
+    <div class="center">
+        <button onclick="takescreenshot2()" class="root2">Open Banned Characters Image</button>
+        </div>
+
     <script src="banlist.js"></script>                         
 
     
     <script>
+$(".searchint").keyup(function() {
 
+var filter = $(this).val(),
+  count = 0;
+
+$('.caption-style-1 li').each(function() {
+
+  if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+    $(this).hide();
+  } else {
+    $(this).show();
+    count++;
+
+  }
+
+});
+
+});
+
+
+$(".searchint2").keyup(function() {
+
+var filter = $(this).val(),
+count = 0;
+
+$('.caption-style-2 li').each(function() {
+
+if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+$(this).hide();
+} else {
+$(this).show();
+count++;
+
+}
+
+});
+
+});
+
+$("#downloadInput").click(function(){
+  var element = document.createElement('a');
+  filecontents = $('#superroot').html();
+  // do scrubbing here
+  //
+
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(filecontents));
+  element.setAttribute('download', 'output.html');
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+});
 
     </script>
 
