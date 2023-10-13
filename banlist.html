@@ -27,7 +27,7 @@
 
             <P class="info">Discord: empressclover<br>
 <a href="https://discord.gg/S2gQbV9y">Clan Discord</a> <br> 
-                        Last Updated: Septermber 2, 2023
+                        Last Updated: October 12, 2023
                         <br><br>
                 <p class="info3 ">
                             <a href="tutorial.html" target="_blank">How to use the Ban Creator</a><br><br>
@@ -2203,6 +2203,15 @@
                                 </li>
 
 
+                                <li class="dropzone" id='393' draggable="true"><img src="characters/Daibutsu.png">
+                                    <div class="caption">
+                                        <div class="blur"></div>
+                                        <div class="caption-text">
+                                            <p>Daibutsu<p class="comma">,</p></p>
+                                        </div>
+                                    </div>
+                                    </li>
+    
 
 
                      <li class="dropzone" id='197' draggable="true"><img src="characters/198.png">
@@ -2552,6 +2561,44 @@
                                 </div>
                             </div>
                             </li>
+
+                            <li class="dropzone" id='394' draggable="true"><img src="characters/Edo Tensei Daimaru.png">
+                                <div class="caption">
+                                    <div class="blur"></div>
+                                    <div class="caption-text">
+                                        <p>Edo Tensei Daimaru<p class="comma">,</p></p>
+                                    </div>
+                                </div>
+                                </li>
+
+                                <li class="dropzone" id='395' draggable="true"><img src="characters/Edo Tensei Chuukaku.png">
+                                    <div class="caption">
+                                        <div class="blur"></div>
+                                        <div class="caption-text">
+                                            <p>Edo Tensei Chuukaku<p class="comma">,</p></p>
+                                        </div>
+                                    </div>
+                                    </li>
+
+
+                                    <li class="dropzone" id='396' draggable="true"><img src="characters/Edo Tensei Sand Jester Nin.png">
+                                        <div class="caption">
+                                            <div class="blur"></div>
+                                            <div class="caption-text">
+                                                <p>Edo Tensei Sand Jester Nin<p class="comma">,</p></p>
+                                            </div>
+                                        </div>
+                                        </li>
+
+                        <li class="dropzone" id='397' draggable="true"><img src="characters/Edo Tensei Cloud Plague Nin.png">
+                                            <div class="caption">
+                                                <div class="blur"></div>
+                                                <div class="caption-text">
+                                                    <p>Edo Tensei Cloud Plague Nin<p class="comma">,</p></p>
+                                                </div>
+                                            </div>
+                                            </li>
+    
 
 
                      <li class="dropzone" id='230' draggable="true"><img src="characters/231.png">
@@ -4030,6 +4077,13 @@
 
                 </div>
                 <br><br>
+
+
+                <p class="opencount">Total Characters Open:<p id="output"></p></p>
+                
+                <p class="root2" id="update">Update Total Characters Open Count</p>
+
+
     <div class="center">
         <input type="file" id="fileInput" class="root2">
     <button onclick="takescreenshot()" class="root2">Open Free Characters Image</button>
@@ -4040,6 +4094,9 @@
     
     <br><br>    <br><br>    <br><br>
     <br><br>    <br><br>    <br><br>
+
+    <p class="bancount">Total Characters Banned:<p id="output2"></p></p>
+    <p class="root2" id="update2">Update Total Characters Open Count</p>
 
     <input class="searchint2" type="text" placeholder="Search for Banned Character">
 <p class="info3">Note: Clear the search bar before downloading your preset or opening banned image<p class="comma">,</p></p>
@@ -4123,6 +4180,30 @@ $("#plaintext").click(function(){
     $(wi.document.body).html(divContent);
     $(wi.document.body).css;
 });
+
+var count = $('.caption-style-1 > li').size();
+        document.getElementById('output').innerHTML = count;
+
+$(function(){
+    $('#update').click(function(){
+        var count = $('.caption-style-1 > li').size();
+        document.getElementById('output').innerHTML = count;
+    });
+});
+
+
+var count = $('.caption-style-2 > li').size();
+        document.getElementById('output2').innerHTML = count;
+
+$(function(){
+    $('#update2').click(function(){
+        var count = $('.caption-style-2 > li').size();
+        document.getElementById('output2').innerHTML = count;
+    });
+});
+
+
+
 
     </script>
 
