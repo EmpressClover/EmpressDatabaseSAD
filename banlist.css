@@ -339,3 +339,7 @@ button:hover, .btn:hover, #fileInput:hover {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+#update:hover, #update2:hover {
+    background-color: #cccccc21;
+}
